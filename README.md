@@ -1,3 +1,5 @@
+![React-quotes-generator](https://github.com/zidan-bsd/react-quotes-generator/assets/58164324/ba094b53-3f73-49c1-9ef4-36288000a0a0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
