@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+$Bg-clr: #A1BB98
+$Primary-clr: #D6C5BD
+$Secondary-clr: #322827
+$Accent-clr: #555A60
+
+$Box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.22)
+$Box-shadow-active: 3px 3px 0px 0px rgba(0,0,0,1)
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: "Poppins", sans-serif
+
+body
+    background-color: $Bg-clr
+    display: flex
+    justify-content: center
+    padding: 40px
+
+.quote
+    background-color: $Primary-clr
+    max-width: 600px
+    padding: 20px 40px
+    display: flex
+    flex-direction: column
+    border-radius: 20px
+    box-shadow: $Box-shadow
+    &-title
+        font-size: 24px
+        font-weight: 900
+        text-align: center
+        margin-bottom: 20px
+    &-quote
+        &-text
+            font-size: 24px
+            font-weight: 600
+            color: $Secondary-clr
+        &-author
+            font-size: 18px
+            color: $Accent-clr
+            margin-top: 10px
+    &-button
+        margin: 20px auto 10px auto
+        width: 110px
+        padding: 8px 0
+        font-size: 16px
+        margin-top: 20px
+        border: 2px solid $Accent-clr
+        background: none
+        border-radius: 8px
+        font-weight: 500
+        cursor: pointer
+        box-shadow: $Box-shadow
+        color: $Secondary-clr
+        &:hover
+            background-color: $Bg-clr
+            border: 2px solid $Accent-clr
+            box-shadow: $Box-shadow-active
